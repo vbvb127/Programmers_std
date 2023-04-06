@@ -25,7 +25,7 @@ cipher는 소문자와 공백으로만 구성되어 있습니다.
  */
 
 
-public class Number2 {
+public class Number002 {
 
 	public String solution(String cipher, int code) {
         String answer = "";
@@ -44,7 +44,7 @@ public class Number2 {
 	
 	public static void main(String[] args) {
 		
-		Number2 number = new Number2();	
+		Number002 number = new Number002();	
 		System.out.println(number.solution("pfqallllabwaoclk", 2));
 
 	}

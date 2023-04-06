@@ -17,7 +17,7 @@ n이 100 이므로 곱이 100인 순서쌍은 (1, 100), (2, 50), (4, 25), (5, 20
  
  */
 
-public class Number1 {
+public class Number001 {
 	    
 	public int solution(int n) {
 		int answer = 0;
@@ -34,7 +34,7 @@ public class Number1 {
 	
 	public static void main(String[] args) {
 
-		Number1 number = new Number1();
+		Number001 number = new Number001();
 		System.out.println(number.solution(20));
 		
 		
