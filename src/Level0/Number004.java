@@ -1,7 +1,6 @@
 package Level0;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -26,8 +25,6 @@ numbers의 원소 중 두 개를 곱해 만들 수 있는 최댓값을 return하
  
  */
 
-
-
 public class Number004 {
 
 	 public int solution(int[] numbers) {
@@ -42,10 +39,7 @@ public class Number004 {
 	        	}
 	        }
 	        
-	       
-	        System.out.println(Arrays.asList(list));
 	        answer =  Collections.max(list); //가장 큰 수 가져오기
-	        
 	        return answer;
 	    }
 	
