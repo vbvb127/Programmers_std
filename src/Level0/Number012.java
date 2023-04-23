@@ -45,11 +45,9 @@ public class Number012 {
 					if(tmp.equals(word[k])) { //조카가 말 할 수 있는 옹알이 라면
 						if(tmpStr.add(tmp)) { //조카가 말했던 옹알이라면
 							str+=tmp;
-							System.out.println(str);
 							tmp = "";
 						}else {
 							list.add(str);
-							System.out.println(str);
 							tmp ="";
 						}
 					tmpStr = new HashSet<String>();
@@ -64,7 +62,6 @@ public class Number012 {
 			
 			}
 		}
-		System.out.println(list);
 		count = list.size();
         return count;
     }
